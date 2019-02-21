@@ -1,0 +1,15 @@
+wm<-c(green = "#115740",
+gold = "#b9975b",
+silver  = "#d0d3d4",
+patina  = "#00b388",
+colonial  = "#cab64b",
+vine  = "#83434e",
+sky  = "#64ccc9",
+brick  = "#e56a54",
+moss  = "#789D4a",
+woods  = "#789f90",
+slate  = "#5b6770",
+griffin  = "#183028",
+wren  = "#00313c",
+spirit  = "#f0b323"
+)
