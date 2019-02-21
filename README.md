@@ -1,6 +1,7 @@
 # university
 🎓 A package for ggplot2 color palettes of Colleges/Universities
 
+#### Package is currently under development. This is just a rough draft project. Cannot be downloaded yet. 
 
 Most institutions of higher education have some sort of official branding color palette. Some places (e.g. Princeton) only specify one color (plus black and white) so those are omitted. Other institutions have long lists of secondary and tertiary branding colors, sometimes whimsically named after campus landmarks. These are included in the package. 
 
