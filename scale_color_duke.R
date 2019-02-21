@@ -1,0 +1,20 @@
+duke <- c(
+Copper		=	 "#C84E00",
+Persimmon	=	 "#E89923",
+Dandelion	=	 "#FFD960",
+Piedmont	=	 "#A1B70D",
+Eno		=	 "#339898",
+Magnolia	=	 "#1D6363",
+PrussianBlue	=	 "#005587",
+Shale Blue	=	 "#0577B1",
+Ironweed	=	 "#993399",
+Hatteras	=	 "#E2E6ED",
+WhisperGray	=	 "#F3F2F1",
+GingerBeer	=	 "#FCF7E5",
+Dogwood		=	 "#988675",
+Shackleford	=	 "#DAD0C6",
+CastIron	=	 "#262626",
+Graphite	=	 "#666666",
+Granite		=	 "#B5B5B5",
+Limestone	=	 '#E5E5E5"
+)
