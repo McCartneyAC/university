@@ -1,5 +1,5 @@
 # university
-🎓 A package for ggplot2 color palettes of Colleges/Universities
+🎓🖍️ A package for ggplot2 color palettes of Colleges/Universities
 
 #### Package is currently under development. This is just a rough draft project. Cannot be downloaded yet. 
 
