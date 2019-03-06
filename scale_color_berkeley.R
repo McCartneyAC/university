@@ -22,7 +22,7 @@ pal_berkeley <- function(palette = c("berkeley"), alpha = 1) {
   
   if (alpha > 1L | alpha <= 0L) stop("alpha must be in (0, 1]")
   
-  raw_cols <- uvapal
+  raw_cols <- berkeley
   raw_cols_rgb <- col2rgb(raw_cols)
   alpha_cols <- rgb(
     raw_cols_rgb[1L, ], raw_cols_rgb[2L, ], raw_cols_rgb[3L, ],
