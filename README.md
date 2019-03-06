@@ -16,6 +16,23 @@ You should be able to install via the typical github installation procedure:
 devtools::install_github("McCartneyAC/university")
 ```
 
+## Usage
+Attach to the end of a `ggplot2` call to adjust the colors (or fill) as usual. 
+```
+plot1 <- ggplot(
+  subset(diamonds, carat >= 2.2),
+  aes(x = table, y = price, colour = cut)
+) +
+  geom_point(alpha = 0.7) +
+  geom_smooth(method = "loess", alpha = 0.05, size = 1, span = 1) +
+  theme_bw()
+
+plot1 + scale_color_harvard()
+```
+![example](https://github.com/McCartneyAC/university/blob/master/images/example.png?raw=true)
+
+
+
 ## Available Palettes:
 I am adding colleges as I find their official-marketing color palettes. Request yours by issue memo with the list of colors to be added. 
 
