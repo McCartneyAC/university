@@ -13,7 +13,7 @@ pal_uva <- function(palette = c("uvapal"), alpha = 1) {
     maxColorValue = 255L
   )
 
-  manual_pal(unname(alpha_cols))
+  scales::manual_pal(unname(alpha_cols))
 }
 
 
