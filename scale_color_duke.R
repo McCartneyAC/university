@@ -1,6 +1,6 @@
 duke <- c(
-Navy  =  "#001A57",
-Royal   =   "#00539B",
+Navy  =     "#001A57",
+Royal   =     "#00539B",
 Copper		=	 "#C84E00",
 Persimmon	=	 "#E89923",
 Dandelion	=	 "#FFD960",
