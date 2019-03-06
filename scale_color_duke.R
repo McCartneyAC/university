@@ -1,6 +1,6 @@
 duke <- c(
-Navy = "#001A57",
-Royal = "#00539B",
+Navy  =  "#001A57",
+Royal   =   "#00539B",
 Copper		=	 "#C84E00",
 Persimmon	=	 "#E89923",
 Dandelion	=	 "#FFD960",
@@ -20,3 +20,32 @@ Graphite	=	 "#666666",
 Granite		=	 "#B5B5B5",
 Limestone	=	 '#E5E5E5"
 )
+
+
+
+pal_duke <- function(palette = c("duke"), alpha = 1) {
+  palette <- match.arg(palette)
+  
+  if (alpha > 1L | alpha <= 0L) stop("alpha must be in (0, 1]")
+  
+  raw_cols <- duke
+  raw_cols_rgb <- col2rgb(raw_cols)
+  alpha_cols <- rgb(
+    raw_cols_rgb[1L, ], raw_cols_rgb[2L, ], raw_cols_rgb[3L, ],
+    alpha = alpha * 255L, names = names(raw_cols),
+    maxColorValue = 255L
+  )
+  
+  scales::manual_pal(unname(alpha_cols))
+}
+
+
+scale_color_duke <- function(palette = c("duke"), alpha = 1, ...) {
+  palette <- match.arg(palette)
+  discrete_scale("colour", "duke", pal_duke(palette, alpha), ...)
+}
+
+scale_fill_duke <- function(palette = c("duke"), alpha = 1, ...) {
+  palette <- match.arg(palette)
+  discrete_scale("fill", "duke", pal_duke(palette, alpha), ...)
+}
